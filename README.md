@@ -1,23 +1,23 @@
-# 📦 Inventory Management Web App
+# Inventory Management App
 
-## 🌐 Live Demo
-* **Live Application:** [🚀 View Live Demo](https://invmanagement-private.vercel.app/)
-
----
-
-## 🚀 Features
-
-* 📊 Dashboard overview
-* 📦 Product management (Create, Read, Delete)
-* 🔎 Search and filter inventory
-* 📉 Stock tracking
-* 🔐 Authentication & session management
-* 🗄️ PostgreSQL database integration
-* ⚡ Fast and optimized UI
+## Live Demo
+* **Live Application:** [View Live Demo](https://invmanagement-private.vercel.app/)
 
 ---
 
-## 🛠️ Tech Stack
+## Features
+
+* Dashboard overview
+* Product management (Create, Read, Delete)
+* Search and filter inventory
+* Stock tracking
+* Authentication & session management
+* PostgreSQL database integration
+* Fast and optimized UI
+
+---
+
+## Tech Stack
 
 This project is built using the following technologies:
 
@@ -29,13 +29,13 @@ This project is built using the following technologies:
 
 ---
 
-## 📸 Screenshot
+## Screenshot
 
 ![Inventory Management Screenshot](repo/website-screenshot.png)
 
 ---
 
-## 📦 Installation
+## Installation
 
 Clone the repository:
 
@@ -52,7 +52,7 @@ npm install
 
 ---
 
-## ⚙️ Environment Variables
+## Environment Variables
 
 Create a `.env` file in the root directory and configure the following variables:
 
@@ -64,7 +64,7 @@ DATABASE_URL=your_postgres_database_url
 
 ---
 
-## 🗄️ Database Setup
+## Database Setup
 
 Make sure you have PostgreSQL installed and running.
 
@@ -77,7 +77,7 @@ npm run migration:run
 
 ---
 
-## 🧪 Development
+## Development
 
 Start the development server:
 
@@ -93,7 +93,7 @@ http://localhost:3000
 
 ---
 
-## 🏗️ Production Build
+## Production Build
 
 ```bash
 npm run build
@@ -102,7 +102,7 @@ npm start
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 /app            → Application routes (Next.js App Router)
@@ -114,7 +114,7 @@ npm start
 
 ---
 
-## 🔐 Authentication
+## Authentication
 
 Authentication and session handling are managed using **@stackframe/stack**, providing secure and scalable user management.
 
