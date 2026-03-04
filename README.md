@@ -119,7 +119,3 @@ npm start
 Authentication and session handling are managed using **@stackframe/stack**, providing secure and scalable user management.
 
 ---
-
-## 📄 License
-
-This project is licensed under the GPL-3.0 license
